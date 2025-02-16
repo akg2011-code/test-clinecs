@@ -1,1 +1,0 @@
-import{u as r}from"./SettingData-5sbMzAiY.js";import{J as n,w as s}from"./index-DLnjnVCu.js";const i=async()=>(await n(s.token,"get_patients")).data,p=()=>{const{isLoading:t,data:a,error:e}=r({queryKey:["patients"],queryFn:i});return{patientsData:a,patientsLoading:t,patientsError:e}};export{p as u};
