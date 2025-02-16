@@ -7,8 +7,9 @@ import {
   Input,
   Radio,
   RadioGroup,
-  Skeleton, theme,
-  useToast
+  Skeleton,
+  theme,
+  useToast,
 } from "@chakra-ui/react";
 import { useEffect, useRef, useState } from "react";
 import { FaTrash } from "react-icons/fa";
@@ -22,7 +23,7 @@ import { useNavigate } from "react-router-dom";
 import moment from "moment";
 import useHasPermission from "../../Hooks/HasPermission";
 import NotAuth from "../../Components/NotAuth";
-import useDebounce from "../../Hooks/UseDebounce";
+import useDebounce from "../../Hooks/useDebounce";
 import Pagination from "../../Components/Pagination";
 import useRolesData from "../../Hooks/UserRolesData";
 

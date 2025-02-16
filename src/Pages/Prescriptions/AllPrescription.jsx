@@ -33,7 +33,7 @@ import DeletePrescription from "./DeletePrescription";
 import Pagination from "../../Components/Pagination";
 import DateRangeCalender from "../../Components/DateRangeCalender";
 import moment from "moment";
-import useDebounce from "../../Hooks/UseDebounce";
+import useDebounce from "../../Hooks/useDebounce";
 import { daysBack } from "../../Controllers/dateConfig";
 
 // Helper function to calculate pagination indices

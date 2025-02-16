@@ -21,7 +21,7 @@ import NotAuth from "../../Components/NotAuth";
 import { useEffect, useRef, useState } from "react";
 import moment from "moment";
 import { daysBack } from "../../Controllers/dateConfig";
-import useDebounce from "../../Hooks/UseDebounce";
+import useDebounce from "../../Hooks/useDebounce";
 import Pagination from "../../Components/Pagination";
 import DateRangeCalender from "../../Components/DateRangeCalender";
 

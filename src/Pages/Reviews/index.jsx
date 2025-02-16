@@ -13,7 +13,7 @@ import { useState, useEffect, useRef } from "react";
 import moment from "moment";
 import DynamicTable from "../../Components/DataTable";
 import Pagination from "../../Components/Pagination";
-import useDebounce from "../../Hooks/UseDebounce";
+import useDebounce from "../../Hooks/useDebounce";
 import DateRangeCalender from "../../Components/DateRangeCalender";
 import { GET } from "../../Controllers/ApiControllers";
 import ErrorPage from "../../Components/ErrorPage";
@@ -130,7 +130,7 @@ const ReviewsPage = () => {
           </Flex>
 
           <DynamicTable
-          minPad={3}
+            minPad={3}
             data={data?.data?.map((review) => ({
               ID: review.id,
               "Doctor Name": `${review.doct_f_name} ${review.doct_l_name}`,

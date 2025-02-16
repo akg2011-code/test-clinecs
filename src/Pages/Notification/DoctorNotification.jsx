@@ -5,7 +5,8 @@ import {
   Flex,
   Input,
   Skeleton,
-  Tooltip, useToast
+  Tooltip,
+  useToast,
 } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
 import { GET } from "../../Controllers/ApiControllers";
@@ -16,7 +17,7 @@ import getFile from "./getfile";
 import printPrescription from "./getPrescription";
 import Pagination from "../../Components/Pagination";
 import DateRangeCalender from "../../Components/DateRangeCalender";
-import useDebounce from "../../Hooks/UseDebounce";
+import useDebounce from "../../Hooks/useDebounce";
 import moment from "moment";
 import { useState } from "react";
 import { daysBack } from "../../Controllers/dateConfig";
