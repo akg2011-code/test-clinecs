@@ -1,4 +1,4 @@
-﻿/* eslint-disable react/prop-types */ import { Button } from "@Components/ui/button";
+﻿import { Button } from "@Components/ui/button";
 import {
   Command,
   CommandEmpty,
