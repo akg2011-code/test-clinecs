@@ -1,18 +1,18 @@
 ﻿/* eslint-disable react/prop-types */
 import { Check, ChevronsUpDown } from "lucide-react";
-import { Button } from "@Components/ui/button";
+import { Button } from "./../Components/ui/button";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@Components/ui/command";
+} from "./../Components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@Components/ui/popover";
+} from "./../Components/ui/popover";
 import { useColorMode } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 

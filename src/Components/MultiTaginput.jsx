@@ -1,16 +1,16 @@
-﻿import { Button } from "@Components/ui/button";
+﻿import { Button } from "./../Components/ui/button";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@Components/ui/command";
+} from "./../Components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@Components/ui/popover";
+} from "./../Components/ui/popover";
 import { useColorMode } from "@chakra-ui/react";
 import { Check } from "lucide-react";
 import { useEffect, useState } from "react";
